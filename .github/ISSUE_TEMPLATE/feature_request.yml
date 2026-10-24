@@ -1,0 +1,56 @@
+name: Feature request
+description: An idea for something Docket should do, or do better.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Tell us the problem first: it helps us find the best way to solve it, which may be different from the first solution that comes to mind.
+        Not sure yet? Start in [Discussions → Ideas](https://github.com/polestar-tech/docket/discussions/categories/ideas).
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do, and what gets in the way today?
+      placeholder: "When I queue twenty tasks, I can't see which ones …"
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How would you like Docket to help? Sketches and screenshots welcome.
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: What you do now instead
+      description: Any workaround you use today, or other tools that do this well.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Tasks and the task list
+        - Board and list view
+        - Sending to the agent
+        - A specific agent (say which below)
+        - Questions from the agent
+        - Plans and notes
+        - Logins, accounts and usage
+        - Settings, look and language
+        - Something else
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched the existing issues and this isn't already requested (if it is, add a 👍 there instead).
+          required: true

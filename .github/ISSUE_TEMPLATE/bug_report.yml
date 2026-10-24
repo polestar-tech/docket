@@ -1,0 +1,115 @@
+name: Bug report
+description: Something in Docket doesn't work as it should.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. This issue is **public**: leave out private code, customer data, and any keys or tokens.
+        Security problems go privately to the **Security** tab, not here.
+
+  - type: input
+    id: version
+    attributes:
+      label: Docket version
+      description: "Command Palette → **Docket: About**, or the Extensions view."
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: editor
+    attributes:
+      label: Editor
+      options:
+        - VS Code
+        - Cursor
+        - Windsurf
+        - VSCodium
+        - Other (say which below)
+    validations:
+      required: true
+
+  - type: input
+    id: editor-version
+    attributes:
+      label: Editor version
+      description: Help → About.
+      placeholder: "1.105.1"
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Remote (SSH, WSL, container)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: agent
+    attributes:
+      label: Agent
+      description: The agent the project sends to. Pick every one involved.
+      multiple: true
+      options:
+        - Claude Code (terminal)
+        - Claude Code (Claude tab)
+        - GitHub Copilot (chat in VS Code)
+        - Cursor
+        - Codex
+        - Gemini CLI
+        - Qwen Code
+        - OpenCode
+        - GitHub Copilot CLI
+        - Cursor CLI
+        - None (not about an agent)
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What did you see? Paste error messages as text.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest set of steps that makes it happen.
+      placeholder: |
+        1. Add a task with a screenshot
+        2. Queue it and press Send
+        3. …
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshots and anything else
+      description: Drag images here. Settings you changed from their defaults, several folders open, a git worktree… anything that may matter.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: I searched the existing issues and this isn't one of them.
+          required: true
+        - label: I removed private code, data, keys and tokens from this report.
+          required: true
