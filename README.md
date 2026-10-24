@@ -2,6 +2,8 @@
 
 **A task queue for AI coding agents in VS Code.** Write tasks with screenshots and files, queue the ones you want done, and send the queue to Claude Code, GitHub Copilot, Cursor, Codex, Gemini CLI, Qwen Code, OpenCode, GitHub Copilot CLI or the Cursor CLI. The agent works through them one at a time and reports back on each.
 
+![Docket in 30 seconds: a task with a screenshot, Start, the agent works the queue, asks a question, and reports back](media/guide/demo.gif)
+
 This repository is where you report problems, suggest ideas and follow releases. It holds no source code: Docket is proprietary software by Polestar Tech Consultancy.
 
 ## Install
