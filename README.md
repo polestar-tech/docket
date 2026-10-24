@@ -4,7 +4,7 @@
 
 ![Docket in 30 seconds: a task with a screenshot, Start, the agent works the queue, asks a question, and reports back](media/guide/demo.gif)
 
-This repository is where you report problems, suggest ideas and follow releases. It holds no source code: Docket is proprietary software by Polestar Tech Consultancy.
+This repository is where you report problems, suggest ideas and follow releases. It holds no source code: Docket is proprietary software by Polestar Tech Consultancy LLP.
 
 ## Install
 
@@ -40,4 +40,4 @@ Docket keeps your tasks, plans and notes on your own computer and sends nothing 
 
 ---
 
-© 2026 Polestar Tech Consultancy. All rights reserved. Docket is used under its end-user licence agreement, shown on the Marketplace page.
+© 2026 Polestar Tech Consultancy LLP. All rights reserved. Docket is used under its end-user licence agreement, shown on the Marketplace page.
