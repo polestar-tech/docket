@@ -1,6 +1,6 @@
 # Docket
 
-**A task queue for AI coding agents in VS Code.** Write tasks with screenshots and files, queue the ones you want done, and send the queue to Claude Code, GitHub Copilot, Cursor, Codex, Gemini CLI, Qwen Code, OpenCode, GitHub Copilot CLI or the Cursor CLI. The agent works through them one at a time and reports back on each.
+**A task queue for AI coding agents in VS Code.** Write tasks with screenshots and files, queue the ones you want done, and send the queue to Claude Code, GitHub Copilot, Cursor, Codex, Gemini CLI, Qwen Code, OpenCode, GitHub Copilot CLI or the Cursor CLI. The agent works through them one at a time and reports back on each. Or chat with Claude Code and Codex in a panel of their own, with images, files and their questions answered in one click.
 
 ![Docket in 30 seconds: a task with a screenshot, Start, the agent works the queue, asks a question, and reports back](media/guide/demo.gif)
 
@@ -31,6 +31,10 @@ Before opening an issue, search the [existing issues](https://github.com/polesta
 ## Learn Docket
 
 The full user guide is inside the extension: in the Docket sidebar, open the Tasks view's **…** menu → **Open User Guide**, or run **Docket: Get Started** from the Command Palette. **Docket: Why Docket?** shows the five problems it solves, with a button to try each answer.
+
+## Agent skill
+
+[`skills/docket`](skills/docket/SKILL.md) is Docket's agent skill: the rules your agent follows to work your queue. Install it from VS Code with **Install Agent Skill…** (Tasks view **…** menu), or with `npx skills add polestar-tech/docket`. The skill needs the extension: Docket's tools come from it.
 
 ## Releases
 
