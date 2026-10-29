@@ -13,6 +13,8 @@ This repository is where you report problems, suggest ideas and follow releases.
 
 Install Docket only from these two stores. Copies from anywhere else are not authorised and may have been changed.
 
+Docket follows your editor's display language: English, French, German, Spanish, Italian, Portuguese (Brazil), Russian, Turkish, Japanese and Korean.
+
 ## Get help
 
 | You want to… | Go to |
@@ -28,7 +30,7 @@ Before opening an issue, search the [existing issues](https://github.com/polesta
 
 ## Learn Docket
 
-The full user guide is inside the extension: in the Docket sidebar, open the Tasks view's **…** menu → **Open User Guide**, or run **Docket: Get Started** from the Command Palette.
+The full user guide is inside the extension: in the Docket sidebar, open the Tasks view's **…** menu → **Open User Guide**, or run **Docket: Get Started** from the Command Palette. **Docket: Why Docket?** shows the five problems it solves, with a button to try each answer.
 
 ## Releases
 
