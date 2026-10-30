@@ -44,7 +44,7 @@ body:
         - Questions from the agent
         - Chat with Claude or Codex
         - Plans and notes
-        - Import from Notion
+        - Import from Notion or Jira
         - Logins, accounts and usage
         - Settings, look and language
         - Something else

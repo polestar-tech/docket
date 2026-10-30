@@ -1,6 +1,6 @@
 # Docket
 
-**A task queue for AI coding agents in VS Code.** Write tasks with screenshots and files, queue the ones you want done, and send the queue to Claude Code, GitHub Copilot, Cursor, Codex, Gemini CLI, Qwen Code, OpenCode, GitHub Copilot CLI or the Cursor CLI. The agent works through them one at a time and reports back on each. Or chat with Claude Code and Codex in a panel of their own, with images, files and their questions answered in one click.
+**A task queue for AI coding agents in VS Code.** Write tasks with screenshots and files, queue the ones you want done, and send the queue to Claude Code, GitHub Copilot, Cursor, Codex, Gemini CLI, Qwen Code, OpenCode, GitHub Copilot CLI or the Cursor CLI. The agent works through them one at a time and reports back on each. Tasks can also come in from your Notion database or your Jira project. Or chat with Claude Code and Codex in a panel of their own, with images, files and their questions answered in one click.
 
 ![Docket in 30 seconds: a task with a screenshot, Start, the agent works the queue, asks a question, and reports back](media/guide/demo.gif)
 
@@ -40,8 +40,11 @@ No. Docket has no account, no sign-up and no server of its own. It runs on your 
 **Which agents does it work with?**<br>
 Claude Code (the VS Code extension or the CLI), GitHub Copilot, Cursor, Codex, Gemini CLI, Qwen Code, OpenCode, GitHub Copilot CLI and the Cursor CLI. Connect each once: Tasks view **…** menu → **Connect an Agent…**.
 
+**Can I bring in tasks from Notion or Jira?**<br>
+Yes: Tasks view **…** menu → **Integrations** → **Notion** or **Jira**. You sign in with your own token, kept on your computer; Jira Cloud and Jira Server / Data Center (8.14 or later) both work. Docket guesses how the fields map, you fix what's wrong, and each page or issue becomes a task with its notes, comments and images. When a task is done, Docket can also move its Jira issue to a status and add the agent's report as a comment (off until you turn it on).
+
 **Does Docket send my code or tasks anywhere?**<br>
-Only to the agent you choose, and to Notion if you connect it. Tasks stay on your computer in `~/.docket`, or in a `.docket` folder in the project if you choose to share them with your team through git.
+Only to the agent you choose, and to Notion or Jira if you connect them. Tasks stay on your computer in `~/.docket`, or in a `.docket` folder in the project if you choose to share them with your team through git.
 
 **I can't find Docket in Cursor's Extensions view.**<br>
 Cursor installs from Open VSX, and its search can take a while to show a new version. In Cursor's agent window, open the editor first (**IDE** at the top right), then the Extensions view, or use the [Open VSX page](https://open-vsx.org/extension/polestar-tech/docket).
